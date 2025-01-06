@@ -1,10 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import userEvents from "@testing-library/user-event";
-import Pets, { PetsContext } from "../../Pets/Pets";
+import { PetsContext } from "../../Pets/Pets";
 import Card from "../Card";
 import cats from "../../../mocks/cats.json";
 
 const cardProps = {
+  //you make it an object with the same properties as the Card component
   name: "Sydney",
   phone: "111-111-1111",
   email: "laith@hotmail.com",
